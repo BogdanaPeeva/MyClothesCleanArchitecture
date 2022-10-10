@@ -1,0 +1,8 @@
+{
+"SpaProxyServer": {
+"ServerUrl": "",
+"LaunchCommand": "",
+"WorkingDirectory": "/Users/bogdana.peeva/Desktop/MyClothesCA/src/Web",
+"MaxTimeoutInSeconds": "120"
+}
+}

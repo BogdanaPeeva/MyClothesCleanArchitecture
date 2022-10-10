@@ -1,0 +1,10 @@
+/Users/bogdana.peeva/Desktop/MyClothesCA/src/WebUI/obj/Debug/net6.0/WebUI.csproj.AssemblyReference.cache
+/Users/bogdana.peeva/Desktop/MyClothesCA/src/WebUI/obj/Debug/net6.0/spa.proxy.json
+/Users/bogdana.peeva/Desktop/MyClothesCA/src/WebUI/obj/Debug/net6.0/WebUI.GeneratedMSBuildEditorConfig.editorconfig
+/Users/bogdana.peeva/Desktop/MyClothesCA/src/WebUI/obj/Debug/net6.0/WebUI.AssemblyInfoInputs.cache
+/Users/bogdana.peeva/Desktop/MyClothesCA/src/WebUI/obj/Debug/net6.0/WebUI.AssemblyInfo.cs
+/Users/bogdana.peeva/Desktop/MyClothesCA/src/WebUI/obj/Debug/net6.0/WebUI.csproj.CoreCompileInputs.cache
+/Users/bogdana.peeva/Desktop/MyClothesCA/src/WebUI/obj/Debug/net6.0/CleanArchitecture.WebUI.MvcApplicationPartsAssemblyInfo.cs
+/Users/bogdana.peeva/Desktop/MyClothesCA/src/WebUI/obj/Debug/net6.0/CleanArchitecture.WebUI.MvcApplicationPartsAssemblyInfo.cache
+/Users/bogdana.peeva/Desktop/MyClothesCA/src/WebUI/obj/Debug/net6.0/WebUI.RazorAssemblyInfo.cache
+/Users/bogdana.peeva/Desktop/MyClothesCA/src/WebUI/obj/Debug/net6.0/WebUI.RazorAssemblyInfo.cs

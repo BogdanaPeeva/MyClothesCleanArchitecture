@@ -1,0 +1,58 @@
+﻿@model AllCategoriesVm
+
+@{
+    this.ViewData["Title"] = "All Categories";
+}
+
+@if (this.TempData.ContainsKey("Message"))
+{
+    <div class="alert alert-">@this.TempData["Message"]</div>
+}
+
+<div class="row" style="margin-top:20px;">
+    @foreach (var category in Model.Categories)
+    {
+        <div class="col-md-4 media" style="display:flex">
+            <span style="margin-bottom:10px;margin-right:10px;">
+                @if (category.ImageUrl != default)
+                {
+                    <img src="@category.ImageUrl" width="100" class="mr-3" style="border-radius:4px;" alt="@category.CategoryName">
+                }
+            </span>
+            <div>
+                <h5 class="mt-0">
+                    <a href="@category.Url">
+                        @category.CategoryName (@category.CategoryClothesCollectionCount)
+                    </a>
+
+                </h5>
+                <span style="margin-right:5px">
+                    <a asp-action="Edit" asp-route-id="@category.CategoryId" class="btn btn-success">Edit</a>
+                </span>
+
+                @*<a asp-action="Details" asp-route-id="@category.CategoryId" class="btn btn-success">Details</a>*@
+                <span>
+                    <a asp-action="Delete" asp-route-id="@category.CategoryId" class="btn btn-danger">Delete</a>
+                </span>
+               
+            </div>
+
+            <div class="media-body">
+            </div>
+
+        </div>
+    }
+
+</div>
+
+<section style="margin-top:100px">
+
+    <div>
+        <a asp-action="Index">Back to all</a>
+    </div>
+</section>
+
+@**@
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

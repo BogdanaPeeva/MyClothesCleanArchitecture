@@ -1,0 +1,77 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <RootNamespace>MyClothesCA.Infrastructure</RootNamespace>
+        <AssemblyName>MyClothesCA.Infrastructure</AssemblyName>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <!--<Nullable>enable</Nullable>-->
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Compile Remove="Persistence\Migrations\**" />
+      <EmbeddedResource Remove="Persistence\Migrations\**" />
+      <None Remove="Persistence\Migrations\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\Application\Application.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="AutoMapper" />
+      <None Remove="AutoMapper.Extensions.Microsoft.DependencyInjection" />
+      <None Remove="Microsoft.EntityFrameworkCore" />
+      <None Remove="Microsoft.Extensions.Identity.Core" />
+      <None Remove="Microsoft.AspNetCore.Identity.EntityFrameworkCore" />
+      <None Remove="Microsoft.VisualStudio.Web.CodeGeneration.Design" />
+      <None Remove="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" />
+      <None Remove="Microsoft.AspNetCore.Http.Features" />
+      <None Remove="Microsoft.Extensions.DependencyInjection" />
+      <None Remove="MediatR" />
+      <None Remove="MediatR.Extensions.Microsoft.DependencyInjection" />
+      <None Remove="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" />
+      <None Remove="Microsoft.Extensions.Diagnostics.HealthChecks.EntityFrameworkCore" />
+      <None Remove="Microsoft.AspNetCore.Identity.UI" />
+      <None Remove="Microsoft.AspNetCore.SpaProxy" />
+      <None Remove="FluentValidation.AspNetCore" />
+      <None Remove="Microsoft.EntityFrameworkCore.Design" />
+      <None Remove="Microsoft.EntityFrameworkCore.SqlServer" />
+      <None Remove="Microsoft.EntityFrameworkCore.Tools" />
+      <None Remove="Microsoft.EntityFrameworkCore.InMemory" />
+      <None Remove="Microsoft.Extensions.Hosting.Abstractions" />
+      <None Remove="Persistence\Migrations\" />
+    </ItemGroup>
+    <ItemGroup>
+      <PackageReference Include="AutoMapper" Version="11.0.0" />
+      <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
+      <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="6.0.8" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.8" />
+      <PackageReference Include="Microsoft.Extensions.Identity.Core" Version="6.0.9" />
+      <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.8" />
+      <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="6.0.8" />
+      <PackageReference Include="Microsoft.AspNetCore.Http.Features" Version="5.0.17" />
+      <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="6.0.0" />
+      <PackageReference Include="MediatR" Version="11.0.0" />
+      <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
+      <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="6.0.8" />
+      <PackageReference Include="Microsoft.Extensions.Diagnostics.HealthChecks.EntityFrameworkCore" Version="6.0.8" />
+      <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="6.0.8" />
+      <PackageReference Include="Microsoft.AspNetCore.SpaProxy" Version="6.0.8" />
+      <PackageReference Include="FluentValidation.AspNetCore" Version="11.2.1" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.8">
+        <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+        <PrivateAssets>all</PrivateAssets>
+      </PackageReference>
+      <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.8" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.8">
+        <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+        <PrivateAssets>all</PrivateAssets>
+      </PackageReference>
+      <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="6.0.8" />
+      <PackageReference Include="Microsoft.Extensions.Hosting.Abstractions" Version="6.0.0" />
+    </ItemGroup>
+    <ItemGroup>
+      <Folder Include="Migrations\" />
+    </ItemGroup>
+</Project>

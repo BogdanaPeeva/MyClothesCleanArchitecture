@@ -1,0 +1,38 @@
+﻿@model GarmentDto
+
+@if (this.TempData.ContainsKey("Message"))
+{
+    <div class="alert alert-success">@this.TempData["Message"]</div>}
+
+<div>
+    <section style="display: flex; margin-top:20px;">
+
+        <span style="margin-right:14px;">
+            <img src=@Model.ImageUrl style="min-height:470px;max-width:720px;" />
+        </span>
+        <div>
+
+            <p class="text card-text text-center texort-bg-primary" data-toggle="tooltip" style=" font-size: 18px;">
+                <strong>Category Name: @Model.CategoryName    </strong>
+
+            </p>
+            <p class="text card-text text-center text-bg-primary" data-toggle="tooltip" style=" font-size: 18px;">
+                <strong>Seasone Name: @Model.SeasonName   </strong>
+
+            </p>
+            <p class="text card-text text-center text-bg-primary" data-toggle="tooltip" style=" font-size: 18px;">
+                <strong>Colour Name: @Model.ColourName    </strong>
+
+            </p>
+
+        </div>
+
+        <a asp-action="All" style="align-self:end ;justify-content:center">Back to List</a>
+    </section>
+</div>
+
+
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

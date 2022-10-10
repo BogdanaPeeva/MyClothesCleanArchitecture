@@ -1,0 +1,10 @@
+/Users/bogdana.peeva/Desktop/MyClothesCA/tests/Application.UnitTests/obj/Debug/net6.0/Application.UnitTests.csproj.AssemblyReference.cache
+/Users/bogdana.peeva/Desktop/MyClothesCA/tests/Application.UnitTests/obj/Debug/net6.0/Application.UnitTests.GeneratedMSBuildEditorConfig.editorconfig
+/Users/bogdana.peeva/Desktop/MyClothesCA/tests/Application.UnitTests/obj/Debug/net6.0/Application.UnitTests.AssemblyInfoInputs.cache
+/Users/bogdana.peeva/Desktop/MyClothesCA/tests/Application.UnitTests/obj/Debug/net6.0/Application.UnitTests.AssemblyInfo.cs
+/Users/bogdana.peeva/Desktop/MyClothesCA/tests/Application.UnitTests/obj/Debug/net6.0/Application.UnitTests.csproj.CoreCompileInputs.cache
+D:\Projects\MyClothesCA 4\tests\Application.UnitTests\obj\Debug\net6.0\Application.UnitTests.csproj.AssemblyReference.cache
+D:\Projects\MyClothesCA 4\tests\Application.UnitTests\obj\Debug\net6.0\Application.UnitTests.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\MyClothesCA 4\tests\Application.UnitTests\obj\Debug\net6.0\Application.UnitTests.AssemblyInfoInputs.cache
+D:\Projects\MyClothesCA 4\tests\Application.UnitTests\obj\Debug\net6.0\Application.UnitTests.AssemblyInfo.cs
+D:\Projects\MyClothesCA 4\tests\Application.UnitTests\obj\Debug\net6.0\Application.UnitTests.csproj.CoreCompileInputs.cache

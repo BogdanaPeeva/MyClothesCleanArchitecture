@@ -1,0 +1,43 @@
+﻿@model AllClothesVm
+<h1 class="text-center mt-2">All Pictures</h1>
+
+@if (this.TempData.ContainsKey("Message"))
+{
+<div class="alert alert-success">@this.TempData["Message"]</div>}
+
+
+<div class="row mt-2 mb-4">
+    @foreach (var garmentModel in Model.ClothesModelList)
+    {
+<div class="card col-6 col-lg-3 game-card">
+    <img src="@garmentModel.ImageUrl"
+         class="card-img-top img-fluid figure-img card-image">
+    <div class="card-body" >
+        <h5 class="card-title text-center" data-toggle="tooltip" data-placement="bottom"
+            title="Description:<br>@garmentModel.Description">
+          Description
+        </h5>
+        <ul class="list-group list-group-flush">
+            @*<li class="list-group-item text-center">@garmentModel.CategoryName</li>*@
+            @*<li class="list-group-item">
+                <span class="health-stat">@garmentModel.CategoryName </span>
+                <span class="attack-stat">@garmentModel.SeasonName</span>
+                <span class="health-stat">@garmentModel.ColourName </span>
+            </li>*@
+        </ul>
+        <a asp-controller="Clothes" asp-action="Edit" asp-route-id="@garmentModel.GarmentId" class="btn btn-primary">Edit</a>
+        <a asp-controller="Clothes" asp-action="Details" asp-route-id="@garmentModel.GarmentId" class="btn btn-success">Details</a>
+        <a asp-controller="Clothes" asp-action="Delete" asp-route-id="@garmentModel.GarmentId" class="btn btn-danger">Delete</a>
+
+
+        <a asp-action="AddToOutfit" asp-route-id="@garmentModel.GarmentId" style="margin-top:5px" class="btn btn-outline-primary ">Add to outfit</a>
+
+    </div>
+
+</div>}
+</div>
+
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

@@ -1,0 +1,45 @@
+﻿@model AllClothesVm
+
+@if (this.TempData.ContainsKey("Message"))
+{
+    <div class="alert alert-success accept-policy">@this.TempData["Message"]</div>
+}
+
+<h3 style="text-align:center;  margin-top:40px">
+    All Pictures
+    <span class="text-center" style="display:flex; flex-wrap:wrap ">
+        <a asp-controller="Clothes" asp-action="Add" class="btn btn-link btn-lg">Create new picture</a>
+    </span>
+</h3>
+
+
+<div class="row mt-2 mb-4">
+    @foreach (var garmentModel in Model.ClothesModelList)
+    {
+        <div class="card col-6 col-lg-3 carousel-dark">
+
+            <img src="@garmentModel.ImageUrl"
+             class="card-img-top img-fluid figure-img card-image" alt="Image">
+
+
+            <div class="card-body">
+                <h5 class="card-title text-center" data-toggle="tooltip" data-placement="bottom"
+                title="Description:<br>@garmentModel.Description">
+                    Description
+                </h5>
+
+                <a asp-action="Edit" asp-route-id="@garmentModel.GarmentId" class="btn btn-primary">Edit</a>
+                <a asp-action="Details" asp-route-id="@garmentModel.GarmentId" class="btn btn-success">Details</a>
+                <a asp-action="Delete" asp-route-id="@garmentModel.GarmentId" class="btn btn-danger">Delete</a>
+
+
+                <a asp-controller="Outfits" asp-action="AddToOutfit" asp-route-id="@garmentModel.GarmentId" style="margin-top:5px" class="btn btn-outline-primary ">Add to outfit</a>
+
+            </div>
+
+        </div>
+    }
+</div>
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

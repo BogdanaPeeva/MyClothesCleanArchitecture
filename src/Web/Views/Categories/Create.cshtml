@@ -1,0 +1,35 @@
+﻿@model CreateCategoryInputDto
+
+@{
+    ViewData["Title"] = "Create Category";
+}
+
+@if (this.TempData.ContainsKey("Message"))
+{
+    <div class="alert alert-dismissible alert-success">
+        @this.TempData["Message"]
+    </div>
+}
+
+<form method="post" asp-action="Create" class="col-md-6 offset-md-3"
+      enctype="multipart/form-data">
+    <h1>@this.ViewData["Title"]</h1>
+    <div asp-validation-summary="All" class="text-danger"></div>
+    <div class="form-group">
+        <label asp-for="CategoryName"></label>
+        <input asp-for="CategoryName" class="form-control" />
+        <span asp-validation-for="CategoryName" class="text-danger"></span>
+    </div>
+    <input type="submit" value="Create" class="btn btn-primary" />
+</form>
+
+<section style="margin-top:100px">
+    <div style="align-self:center">
+        <a asp-action="Index">Back to List</a>
+
+    </div>
+</section>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

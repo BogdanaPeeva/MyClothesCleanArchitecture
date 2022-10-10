@@ -1,0 +1,17 @@
+﻿@model AllClothesVm
+
+@if (this.TempData.ContainsKey("Message"))
+{
+    <div class="alert alert-success">@this.TempData["Message"]</div>
+
+}
+
+<hr />
+
+<div class="text-center b">
+    <a asp-controller="Clothes" asp-action="Add" class="btn btn-primary btn-lg">Create new picture</a>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

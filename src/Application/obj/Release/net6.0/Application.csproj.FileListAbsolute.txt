@@ -1,0 +1,15 @@
+/Users/bogdana.peeva/Desktop/MyClothesCA/src/Application/bin/Release/net6.0/CleanArchitecture.Application.deps.json
+/Users/bogdana.peeva/Desktop/MyClothesCA/src/Application/bin/Release/net6.0/CleanArchitecture.Application.dll
+/Users/bogdana.peeva/Desktop/MyClothesCA/src/Application/bin/Release/net6.0/ref/CleanArchitecture.Application.dll
+/Users/bogdana.peeva/Desktop/MyClothesCA/src/Application/bin/Release/net6.0/CleanArchitecture.Application.pdb
+/Users/bogdana.peeva/Desktop/MyClothesCA/src/Application/bin/Release/net6.0/CleanArchitecture.Domain.dll
+/Users/bogdana.peeva/Desktop/MyClothesCA/src/Application/bin/Release/net6.0/CleanArchitecture.Domain.pdb
+/Users/bogdana.peeva/Desktop/MyClothesCA/src/Application/obj/Release/net6.0/Application.csproj.AssemblyReference.cache
+/Users/bogdana.peeva/Desktop/MyClothesCA/src/Application/obj/Release/net6.0/Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/bogdana.peeva/Desktop/MyClothesCA/src/Application/obj/Release/net6.0/Application.AssemblyInfoInputs.cache
+/Users/bogdana.peeva/Desktop/MyClothesCA/src/Application/obj/Release/net6.0/Application.AssemblyInfo.cs
+/Users/bogdana.peeva/Desktop/MyClothesCA/src/Application/obj/Release/net6.0/Application.csproj.CoreCompileInputs.cache
+/Users/bogdana.peeva/Desktop/MyClothesCA/src/Application/obj/Release/net6.0/Application.csproj.CopyComplete
+/Users/bogdana.peeva/Desktop/MyClothesCA/src/Application/obj/Release/net6.0/CleanArchitecture.Application.dll
+/Users/bogdana.peeva/Desktop/MyClothesCA/src/Application/obj/Release/net6.0/ref/CleanArchitecture.Application.dll
+/Users/bogdana.peeva/Desktop/MyClothesCA/src/Application/obj/Release/net6.0/CleanArchitecture.Application.pdb
