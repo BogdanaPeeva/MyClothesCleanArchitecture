@@ -136,7 +136,7 @@ public class AddPictureCommandHandler : IRequestHandler<AddPictureCommand, strin
             ApplicationUserId = userId,
             GarmentId = garment.GarmentId
         };
-
+        // todo:
         await dbContext.Clothes.AddAsync(garment);
 
         await dbContext.UserClothes.AddAsync(userGarment);
