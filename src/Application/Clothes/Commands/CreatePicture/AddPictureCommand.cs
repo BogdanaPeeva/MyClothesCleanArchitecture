@@ -81,7 +81,7 @@ public class AddPictureCommandHandler : IRequestHandler<AddPictureCommand, strin
             garment.Colour.Name = dbContext.Colours.FirstOrDefault(x => x.ColourId == request.CreateGarmentInputDto.ColourId).Name;
 
         }
-
+        //todo:
         // /wwwroot/images/clothes/jhdsi-343g3h453-=g34g.jpg
 
         if (request.CreateGarmentInputDto.Images != default)
