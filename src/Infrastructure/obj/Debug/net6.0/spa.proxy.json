@@ -1,8 +1,0 @@
-{
-"SpaProxyServer": {
-"ServerUrl": "",
-"LaunchCommand": "",
-"WorkingDirectory": "/Users/bogdana.peeva/Git Clone/MyClothesCA/src/Infrastructure",
-"MaxTimeoutInSeconds": "120"
-}
-}
