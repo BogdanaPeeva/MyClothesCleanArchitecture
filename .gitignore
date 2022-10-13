@@ -236,3 +236,17 @@ _Pvt_Extensions
 /CleanArchitecture.ndproj
 /.mfractor
 src/WebUI/ClientApp/package-lock.json
+src/Web/bin/Debug/net6.0/wwwroot/pngegg (6).png
+src/Web/bin/Debug/net6.0/wwwroot/pngegg (6).png
+src/Web/bin/Debug/net6.0/wwwroot/pngegg (6).png
+.gitignore
+src/Web/bin/Debug/net6.0/wwwroot/pngegg (5).png
+src/Web/bin/Debug/net6.0/wwwroot/pngegg (5).png
+src/Web/bin/Debug/net6.0/wwwroot/pngegg (5).png
+src/Web/bin/Debug/net6.0/wwwroot/pngegg (5).png
+src/Web/bin/Debug/net6.0/wwwroot/pngegg (8).png
+src/Web/bin/Debug/net6.0/wwwroot/pngegg (9).png
+src/Web/bin/Debug/net6.0/wwwroot/pngegg (10).png
+obj/
+bin/
+.vs/

@@ -2,7 +2,7 @@
 "SpaProxyServer": {
 "ServerUrl": "",
 "LaunchCommand": "",
-"WorkingDirectory": "/Users/bogdana.peeva/Desktop/MyClothesCA /src/Infrastructure",
+"WorkingDirectory": "/Users/bogdana.peeva/Git Clone/MyClothesCA/src/Infrastructure",
 "MaxTimeoutInSeconds": "120"
 }
 }

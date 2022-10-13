@@ -10559,19 +10559,19 @@
     ]
   },
   "packageFolders": {
-    "/Users/bogdana.peeva/Library/Caches/VisualStudioInstaller/downloads/HOME/.nuget/packages/": {}
+    "/Users/bogdana.peeva/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/bogdana.peeva/Desktop/MyClothesCA /src/Application/Application.csproj",
+      "projectUniqueName": "/Users/bogdana.peeva/Git Clone/MyClothesCA/src/Application/Application.csproj",
       "projectName": "MyClothesCA.Application",
-      "projectPath": "/Users/bogdana.peeva/Desktop/MyClothesCA /src/Application/Application.csproj",
-      "packagesPath": "/Users/bogdana.peeva/Library/Caches/VisualStudioInstaller/downloads/HOME/.nuget/packages/",
-      "outputPath": "/Users/bogdana.peeva/Desktop/MyClothesCA /src/Application/obj/",
+      "projectPath": "/Users/bogdana.peeva/Git Clone/MyClothesCA/src/Application/Application.csproj",
+      "packagesPath": "/Users/bogdana.peeva/.nuget/packages/",
+      "outputPath": "/Users/bogdana.peeva/Git Clone/MyClothesCA/src/Application/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/bogdana.peeva/Library/Caches/VisualStudioInstaller/downloads/HOME/.nuget/NuGet/NuGet.Config"
+        "/Users/bogdana.peeva/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -10583,8 +10583,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "/Users/bogdana.peeva/Desktop/MyClothesCA /src/Domain/Domain.csproj": {
-              "projectPath": "/Users/bogdana.peeva/Desktop/MyClothesCA /src/Domain/Domain.csproj"
+            "/Users/bogdana.peeva/Git Clone/MyClothesCA/src/Domain/Domain.csproj": {
+              "projectPath": "/Users/bogdana.peeva/Git Clone/MyClothesCA/src/Domain/Domain.csproj"
             }
           }
         }

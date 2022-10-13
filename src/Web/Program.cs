@@ -28,14 +28,14 @@ using (var serviceScope = app.Services.CreateScope())
 if (app.Environment.IsDevelopment())
 {
 
-    //app.UseDeveloperExceptionPage();
+    app.UseDeveloperExceptionPage();
     app.UseMigrationsEndPoint();
 
     // Initialise and seed database
     using (var scope = app.Services.CreateScope())
     {
         var dbContext = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
-        await dbContext.Database.MigrateAsync();
+        //await dbContext.Database.MigrateAsync();
 
         //var initialiser = scope.ServiceProvider.GetRequiredService<ApplicationDbContextInitialiser>();
         //await initialiser.InitialiseAsync();
@@ -72,7 +72,7 @@ app.UseEndpoints(endpoints =>
 
 app.MapRazorPages();
 
-app.MapFallbackToFile("index.html");
+// app.MapFallbackToFile("index.html");
 
 
 app.Run();
