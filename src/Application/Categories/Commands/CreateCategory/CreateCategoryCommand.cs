@@ -48,6 +48,12 @@ public class CreateCategoryCommandHandler : IRequestHandler<CreateCategoryComman
             Name = request.CreateCategoryInputDto.CategoryName.Trim(' '),
         };
 
+        if (await dbContext.Categories.FirstOrDefaultAsync(x => x.Name == category.Name) == null && await this.dbContext.UsersCategories.FirstOrDefaultAsync(x => x.ApplicationUserId == userId && x.CategoryId == category.CategoryId) == null)
+        {
+            await dbContext.Categories.AddAsync(category);
+
+        }
+
         if (await this.dbContext.UsersCategories.FirstOrDefaultAsync(x => x.ApplicationUserId == userId && x.CategoryId == category.CategoryId) != null)
         {
             throw new Exception("This category already exist!");
@@ -61,15 +67,7 @@ public class CreateCategoryCommandHandler : IRequestHandler<CreateCategoryComman
 
         await this.dbContext.UsersCategories.AddAsync(userCategory);
 
-        if (await dbContext.Categories.FirstOrDefaultAsync(x => x.Name == category.Name) != null)
-        {
-            throw new Exception("This category already exist!");
-        }
-        else
-        {
-            await dbContext.Categories.AddAsync(category);
-
-        }
+       
 
         await dbContext.SaveChangesAsync(cancellationToken);
 

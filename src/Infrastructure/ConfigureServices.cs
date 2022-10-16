@@ -16,41 +16,42 @@ public static class ConfigureServices
     {
         services.AddScoped<AuditableEntitySaveChangesInterceptor>();
 
-        //if (configuration.GetValue<bool>("UseInMemoryDatabase"))
-        //{
-        //    services.AddDbContext<ApplicationDbContext>(options =>
-        //        options.UseInMemoryDatabase("MyClothesCADb"));
-        //}
-        //else
-        //{
-        services.AddDbContext<ApplicationDbContext>(options =>
+        if (configuration.GetValue<bool>("UseInMemoryDatabase"))
+        {
+            services.AddDbContext<ApplicationDbContext>(options =>
+                options.UseInMemoryDatabase("MyClothesCADb"));
+        }
+        else
+        {
+            services.AddDbContext<ApplicationDbContext>(options =>
             options.UseSqlServer(configuration.GetConnectionString("DefaultConnection"),
                     builder => builder.MigrationsAssembly(typeof(ApplicationDbContext).Assembly.FullName)));
 
+        }
+
+            services.AddScoped<IApplicationDbContext>(provider => provider.GetRequiredService<ApplicationDbContext>());
+
+            services.AddScoped<ApplicationDbContext>();
+
+            //services.AddScoped<ApplicationDbContextInitialiser>();
 
 
-        services.AddScoped<IApplicationDbContext>(provider => provider.GetRequiredService<ApplicationDbContext>());
-
-        services.AddScoped<ApplicationDbContext>();
-
-        //services.AddScoped<ApplicationDbContextInitialiser>();
-
-
-        services.AddDefaultIdentity<ApplicationUser>(IdentityOptionsProvider.GetIdentityOptions)
-                /*.AddRoles<ApplicationRole>()*/
-                .AddEntityFrameworkStores<ApplicationDbContext>();
+            services.AddDefaultIdentity<ApplicationUser>(IdentityOptionsProvider.GetIdentityOptions)
+                    /*.AddRoles<ApplicationRole>()*/
+                    .AddEntityFrameworkStores<ApplicationDbContext>();
 
 
 
-        services.AddTransient<IDateTime, DateTimeService>();
+            services.AddTransient<IDateTime, DateTimeService>();
 
 
-        services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+            services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
 
-        //services.AddAuthorization(options =>
-        //    options.AddPolicy("CanPurge", policy => policy.RequireRole("Administrator")));
+            //services.AddAuthorization(options =>
+            //    options.AddPolicy("CanPurge", policy => policy.RequireRole("Administrator")));
 
 
-        return services;
+            return services;
+        
     }
 }
