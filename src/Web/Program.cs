@@ -72,7 +72,11 @@ app.UseEndpoints(endpoints =>
 
 app.MapRazorPages();
 
+<<<<<<< Updated upstream
 // app.MapFallbackToFile("index.html");
+=======
+//app.MapFallbackToFile("index.html");
+>>>>>>> Stashed changes
 
 
 app.Run();
