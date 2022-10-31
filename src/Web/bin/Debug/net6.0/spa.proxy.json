@@ -1,8 +1,0 @@
-{
-"SpaProxyServer": {
-"ServerUrl": "",
-"LaunchCommand": "",
-"WorkingDirectory": "/Users/bogdana.peeva/Desktop/git local repo - rest ex/MyClothesCA /src/Web",
-"MaxTimeoutInSeconds": "120"
-}
-}
