@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "H5FUUgWTzy3SJEs+JldTduwihTtEsWnJOfKsBqljaNWFpTHEGpBrWL2bqrZCabOmRFYGJ1fy/Snsx82rHOEu+g==",
+  "dgSpecHash": "9gZ7PHKm35bwTaShSilc+mYwcCzUbKs61q6FP1dzb2OFQXxhuJ/Ls8xpdbeTwf4c9cEveeh4wv2968JuIr/VEQ==",
   "success": true,
-  "projectFilePath": "/Users/bogdana.peeva/Desktop/git local repo - rest ex/MyClothesCA /src/Application/Application.csproj",
+  "projectFilePath": "/Users/bogdana.peeva/Documents/GitHub/MyClothesCA/src/Application/Application.csproj",
   "expectedPackageFiles": [
     "/Users/bogdana.peeva/.nuget/packages/automapper/11.0.0/automapper.11.0.0.nupkg.sha512",
     "/Users/bogdana.peeva/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/11.0.0/automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",

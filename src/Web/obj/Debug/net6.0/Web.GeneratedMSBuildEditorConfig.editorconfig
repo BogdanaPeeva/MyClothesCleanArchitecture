@@ -8,93 +8,93 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Web
 build_property.RootNamespace = Web
-build_property.ProjectDir = /Users/bogdana.peeva/Desktop/git local repo - rest ex/MyClothesCA /src/Web/
+build_property.ProjectDir = /Users/bogdana.peeva/Documents/GitHub/MyClothesCA/src/Web/
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
-build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /Users/bogdana.peeva/Desktop/git local repo - rest ex/MyClothesCA /src/Web
+build_property.GenerateRazorMetadataSourceChecksumAttributes = true
+build_property.MSBuildProjectDirectory = /Users/bogdana.peeva/Documents/GitHub/MyClothesCA/src/Web
 build_property._RazorSourceGeneratorDebug = 
 
-[/Users/bogdana.peeva/Desktop/git local repo - rest ex/MyClothesCA /src/Web/Areas/Identity/Pages/_ViewStart.cshtml]
+[/Users/bogdana.peeva/Documents/GitHub/MyClothesCA/src/Web/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/bogdana.peeva/Desktop/git local repo - rest ex/MyClothesCA /src/Web/Views/Categories/All.cshtml]
+[/Users/bogdana.peeva/Documents/GitHub/MyClothesCA/src/Web/Views/Categories/All.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2F0ZWdvcmllcy9BbGwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/bogdana.peeva/Desktop/git local repo - rest ex/MyClothesCA /src/Web/Views/Categories/ByName.cshtml]
+[/Users/bogdana.peeva/Documents/GitHub/MyClothesCA/src/Web/Views/Categories/ByName.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2F0ZWdvcmllcy9CeU5hbWUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/bogdana.peeva/Desktop/git local repo - rest ex/MyClothesCA /src/Web/Views/Categories/Create.cshtml]
+[/Users/bogdana.peeva/Documents/GitHub/MyClothesCA/src/Web/Views/Categories/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2F0ZWdvcmllcy9DcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/bogdana.peeva/Desktop/git local repo - rest ex/MyClothesCA /src/Web/Views/Categories/Edit.cshtml]
+[/Users/bogdana.peeva/Documents/GitHub/MyClothesCA/src/Web/Views/Categories/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2F0ZWdvcmllcy9FZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/bogdana.peeva/Desktop/git local repo - rest ex/MyClothesCA /src/Web/Views/Categories/Index.cshtml]
+[/Users/bogdana.peeva/Documents/GitHub/MyClothesCA/src/Web/Views/Categories/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2F0ZWdvcmllcy9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/bogdana.peeva/Desktop/git local repo - rest ex/MyClothesCA /src/Web/Views/Clothes/Add.cshtml]
+[/Users/bogdana.peeva/Documents/GitHub/MyClothesCA/src/Web/Views/Clothes/Add.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2xvdGhlcy9BZGQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/bogdana.peeva/Desktop/git local repo - rest ex/MyClothesCA /src/Web/Views/Clothes/All.cshtml]
+[/Users/bogdana.peeva/Documents/GitHub/MyClothesCA/src/Web/Views/Clothes/All.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2xvdGhlcy9BbGwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/bogdana.peeva/Desktop/git local repo - rest ex/MyClothesCA /src/Web/Views/Clothes/Delete.cshtml]
+[/Users/bogdana.peeva/Documents/GitHub/MyClothesCA/src/Web/Views/Clothes/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2xvdGhlcy9EZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/bogdana.peeva/Desktop/git local repo - rest ex/MyClothesCA /src/Web/Views/Clothes/Details.cshtml]
+[/Users/bogdana.peeva/Documents/GitHub/MyClothesCA/src/Web/Views/Clothes/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2xvdGhlcy9EZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/bogdana.peeva/Desktop/git local repo - rest ex/MyClothesCA /src/Web/Views/Clothes/Edit.cshtml]
+[/Users/bogdana.peeva/Documents/GitHub/MyClothesCA/src/Web/Views/Clothes/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2xvdGhlcy9FZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/bogdana.peeva/Desktop/git local repo - rest ex/MyClothesCA /src/Web/Views/Clothes/Index.cshtml]
+[/Users/bogdana.peeva/Documents/GitHub/MyClothesCA/src/Web/Views/Clothes/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2xvdGhlcy9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/bogdana.peeva/Desktop/git local repo - rest ex/MyClothesCA /src/Web/Views/Home/Index.cshtml]
+[/Users/bogdana.peeva/Documents/GitHub/MyClothesCA/src/Web/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/bogdana.peeva/Desktop/git local repo - rest ex/MyClothesCA /src/Web/Views/Home/Privacy.cshtml]
+[/Users/bogdana.peeva/Documents/GitHub/MyClothesCA/src/Web/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/bogdana.peeva/Desktop/git local repo - rest ex/MyClothesCA /src/Web/Views/Shared/Error.cshtml]
+[/Users/bogdana.peeva/Documents/GitHub/MyClothesCA/src/Web/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/bogdana.peeva/Desktop/git local repo - rest ex/MyClothesCA /src/Web/Views/Shared/_CookieConsentPartial.cshtml]
+[/Users/bogdana.peeva/Documents/GitHub/MyClothesCA/src/Web/Views/Shared/_CookieConsentPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19Db29raWVDb25zZW50UGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/bogdana.peeva/Desktop/git local repo - rest ex/MyClothesCA /src/Web/Views/Shared/_LoginPartial.cshtml]
+[/Users/bogdana.peeva/Documents/GitHub/MyClothesCA/src/Web/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/bogdana.peeva/Desktop/git local repo - rest ex/MyClothesCA /src/Web/Views/Shared/_ValidationScriptsPartial.cshtml]
+[/Users/bogdana.peeva/Documents/GitHub/MyClothesCA/src/Web/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/bogdana.peeva/Desktop/git local repo - rest ex/MyClothesCA /src/Web/Views/_ViewImports.cshtml]
+[/Users/bogdana.peeva/Documents/GitHub/MyClothesCA/src/Web/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/bogdana.peeva/Desktop/git local repo - rest ex/MyClothesCA /src/Web/Views/_ViewStart.cshtml]
+[/Users/bogdana.peeva/Documents/GitHub/MyClothesCA/src/Web/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/bogdana.peeva/Desktop/git local repo - rest ex/MyClothesCA /src/Web/Views/Shared/_Layout.cshtml]
+[/Users/bogdana.peeva/Documents/GitHub/MyClothesCA/src/Web/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-znl52p88st

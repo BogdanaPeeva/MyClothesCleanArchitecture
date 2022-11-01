@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/bogdana.peeva/Desktop/git local repo - rest ex/MyClothesCA /src/Web/Web.csproj": {}
+    "/Users/bogdana.peeva/Documents/GitHub/MyClothesCA/src/Web/Web.csproj": {}
   },
   "projects": {
-    "/Users/bogdana.peeva/Desktop/git local repo - rest ex/MyClothesCA /src/Application/Application.csproj": {
+    "/Users/bogdana.peeva/Documents/GitHub/MyClothesCA/src/Application/Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/bogdana.peeva/Desktop/git local repo - rest ex/MyClothesCA /src/Application/Application.csproj",
+        "projectUniqueName": "/Users/bogdana.peeva/Documents/GitHub/MyClothesCA/src/Application/Application.csproj",
         "projectName": "MyClothesCA.Application",
-        "projectPath": "/Users/bogdana.peeva/Desktop/git local repo - rest ex/MyClothesCA /src/Application/Application.csproj",
+        "projectPath": "/Users/bogdana.peeva/Documents/GitHub/MyClothesCA/src/Application/Application.csproj",
         "packagesPath": "/Users/bogdana.peeva/.nuget/packages/",
-        "outputPath": "/Users/bogdana.peeva/Desktop/git local repo - rest ex/MyClothesCA /src/Application/obj/",
+        "outputPath": "/Users/bogdana.peeva/Documents/GitHub/MyClothesCA/src/Application/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/bogdana.peeva/.nuget/NuGet/NuGet.Config"
@@ -26,8 +26,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/Users/bogdana.peeva/Desktop/git local repo - rest ex/MyClothesCA /src/Domain/Domain.csproj": {
-                "projectPath": "/Users/bogdana.peeva/Desktop/git local repo - rest ex/MyClothesCA /src/Domain/Domain.csproj"
+              "/Users/bogdana.peeva/Documents/GitHub/MyClothesCA/src/Domain/Domain.csproj": {
+                "projectPath": "/Users/bogdana.peeva/Documents/GitHub/MyClothesCA/src/Domain/Domain.csproj"
               }
             }
           }
@@ -150,14 +150,14 @@
         }
       }
     },
-    "/Users/bogdana.peeva/Desktop/git local repo - rest ex/MyClothesCA /src/Domain/Domain.csproj": {
+    "/Users/bogdana.peeva/Documents/GitHub/MyClothesCA/src/Domain/Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/bogdana.peeva/Desktop/git local repo - rest ex/MyClothesCA /src/Domain/Domain.csproj",
+        "projectUniqueName": "/Users/bogdana.peeva/Documents/GitHub/MyClothesCA/src/Domain/Domain.csproj",
         "projectName": "MyClothesCA.Domain",
-        "projectPath": "/Users/bogdana.peeva/Desktop/git local repo - rest ex/MyClothesCA /src/Domain/Domain.csproj",
+        "projectPath": "/Users/bogdana.peeva/Documents/GitHub/MyClothesCA/src/Domain/Domain.csproj",
         "packagesPath": "/Users/bogdana.peeva/.nuget/packages/",
-        "outputPath": "/Users/bogdana.peeva/Desktop/git local repo - rest ex/MyClothesCA /src/Domain/obj/",
+        "outputPath": "/Users/bogdana.peeva/Documents/GitHub/MyClothesCA/src/Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/bogdana.peeva/.nuget/NuGet/NuGet.Config"
@@ -292,14 +292,14 @@
         }
       }
     },
-    "/Users/bogdana.peeva/Desktop/git local repo - rest ex/MyClothesCA /src/Infrastructure/Infrastructure.csproj": {
+    "/Users/bogdana.peeva/Documents/GitHub/MyClothesCA/src/Infrastructure/Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/bogdana.peeva/Desktop/git local repo - rest ex/MyClothesCA /src/Infrastructure/Infrastructure.csproj",
+        "projectUniqueName": "/Users/bogdana.peeva/Documents/GitHub/MyClothesCA/src/Infrastructure/Infrastructure.csproj",
         "projectName": "MyClothesCA.Infrastructure",
-        "projectPath": "/Users/bogdana.peeva/Desktop/git local repo - rest ex/MyClothesCA /src/Infrastructure/Infrastructure.csproj",
+        "projectPath": "/Users/bogdana.peeva/Documents/GitHub/MyClothesCA/src/Infrastructure/Infrastructure.csproj",
         "packagesPath": "/Users/bogdana.peeva/.nuget/packages/",
-        "outputPath": "/Users/bogdana.peeva/Desktop/git local repo - rest ex/MyClothesCA /src/Infrastructure/obj/",
+        "outputPath": "/Users/bogdana.peeva/Documents/GitHub/MyClothesCA/src/Infrastructure/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/bogdana.peeva/.nuget/NuGet/NuGet.Config"
@@ -314,8 +314,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/Users/bogdana.peeva/Desktop/git local repo - rest ex/MyClothesCA /src/Application/Application.csproj": {
-                "projectPath": "/Users/bogdana.peeva/Desktop/git local repo - rest ex/MyClothesCA /src/Application/Application.csproj"
+              "/Users/bogdana.peeva/Documents/GitHub/MyClothesCA/src/Application/Application.csproj": {
+                "projectPath": "/Users/bogdana.peeva/Documents/GitHub/MyClothesCA/src/Application/Application.csproj"
               }
             }
           }
@@ -438,14 +438,14 @@
         }
       }
     },
-    "/Users/bogdana.peeva/Desktop/git local repo - rest ex/MyClothesCA /src/Web/Web.csproj": {
+    "/Users/bogdana.peeva/Documents/GitHub/MyClothesCA/src/Web/Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/bogdana.peeva/Desktop/git local repo - rest ex/MyClothesCA /src/Web/Web.csproj",
+        "projectUniqueName": "/Users/bogdana.peeva/Documents/GitHub/MyClothesCA/src/Web/Web.csproj",
         "projectName": "Web",
-        "projectPath": "/Users/bogdana.peeva/Desktop/git local repo - rest ex/MyClothesCA /src/Web/Web.csproj",
+        "projectPath": "/Users/bogdana.peeva/Documents/GitHub/MyClothesCA/src/Web/Web.csproj",
         "packagesPath": "/Users/bogdana.peeva/.nuget/packages/",
-        "outputPath": "/Users/bogdana.peeva/Desktop/git local repo - rest ex/MyClothesCA /src/Web/obj/",
+        "outputPath": "/Users/bogdana.peeva/Documents/GitHub/MyClothesCA/src/Web/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/bogdana.peeva/.nuget/NuGet/NuGet.Config"
@@ -460,11 +460,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/Users/bogdana.peeva/Desktop/git local repo - rest ex/MyClothesCA /src/Application/Application.csproj": {
-                "projectPath": "/Users/bogdana.peeva/Desktop/git local repo - rest ex/MyClothesCA /src/Application/Application.csproj"
+              "/Users/bogdana.peeva/Documents/GitHub/MyClothesCA/src/Application/Application.csproj": {
+                "projectPath": "/Users/bogdana.peeva/Documents/GitHub/MyClothesCA/src/Application/Application.csproj"
               },
-              "/Users/bogdana.peeva/Desktop/git local repo - rest ex/MyClothesCA /src/Infrastructure/Infrastructure.csproj": {
-                "projectPath": "/Users/bogdana.peeva/Desktop/git local repo - rest ex/MyClothesCA /src/Infrastructure/Infrastructure.csproj"
+              "/Users/bogdana.peeva/Documents/GitHub/MyClothesCA/src/Infrastructure/Infrastructure.csproj": {
+                "projectPath": "/Users/bogdana.peeva/Documents/GitHub/MyClothesCA/src/Infrastructure/Infrastructure.csproj"
               }
             }
           }
