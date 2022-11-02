@@ -2430,7 +2430,6 @@ D:/Projects/MyClothesCA 4- with right migration/src/Domain/obj/Debug/net6.0/ref/
 /Users/bogdana.peeva/Documents/GitHub/MyClothesCA/src/Domain/bin/Debug/net6.0/refs/System.Xml.XPath.dll
 /Users/bogdana.peeva/Documents/GitHub/MyClothesCA/src/Domain/bin/Debug/net6.0/refs/System.Xml.XPath.XDocument.dll
 /Users/bogdana.peeva/Documents/GitHub/MyClothesCA/src/Domain/bin/Debug/net6.0/refs/WindowsBase.dll
-/Users/bogdana.peeva/Documents/GitHub/MyClothesCA/src/Domain/obj/Debug/net6.0/Domain.csproj.AssemblyReference.cache
 /Users/bogdana.peeva/Documents/GitHub/MyClothesCA/src/Domain/obj/Debug/net6.0/spa.proxy.json
 /Users/bogdana.peeva/Documents/GitHub/MyClothesCA/src/Domain/obj/Debug/net6.0/Domain.GeneratedMSBuildEditorConfig.editorconfig
 /Users/bogdana.peeva/Documents/GitHub/MyClothesCA/src/Domain/obj/Debug/net6.0/Domain.AssemblyInfoInputs.cache
