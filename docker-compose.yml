@@ -5,7 +5,7 @@ services:
     container_name: sql_server
     image: mcr.microsoft.com/mssql/server:2022-latest
     ports: 
-      - "1433:1433"
+      - "1435:1433"
     environment:
         ACCEPT_EULA: "Y"
         SA_PASSWORD: "S3cur3P@ssW0rd!"
@@ -23,7 +23,7 @@ services:
     environment:
       - "ConnectionStrings__DefaultConnection=Server=sql_server;Database=MyClothesCAA;Persist Security Info=True;User ID=SA;Password=S3cur3P@ssW0rd!;MultipleActiveResultSets=true"
     ports: 
-      - "5001:80"
+      - "5005:80"
     networks: 
       - my_networkca
     depends_on:

@@ -452,3 +452,6 @@ $RECYCLE.BIN/
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
+*.cache
+*.cache
+src/Application/obj/Debug/net6.0/Application.csproj.AssemblyReference.cache
