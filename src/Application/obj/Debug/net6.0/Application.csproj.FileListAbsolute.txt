@@ -2168,7 +2168,6 @@ D:/Projects/MyClothesCA 4- with right migration/src/Application/obj/Debug/net6.0
 /Users/bogdana.peeva/Documents/GitHub/MyClothesCA/src/Application/bin/Debug/net6.0/MyClothesCA.Application.deps.json
 /Users/bogdana.peeva/Documents/GitHub/MyClothesCA/src/Application/bin/Debug/net6.0/MyClothesCA.Application.runtimeconfig.json
 /Users/bogdana.peeva/Documents/GitHub/MyClothesCA/src/Application/bin/Debug/net6.0/MyClothesCA.Application.dll
-/Users/bogdana.peeva/Documents/GitHub/MyClothesCA/src/Application/bin/Debug/net6.0/ref/MyClothesCA.Application.dll
 /Users/bogdana.peeva/Documents/GitHub/MyClothesCA/src/Application/bin/Debug/net6.0/MyClothesCA.Application.pdb
 /Users/bogdana.peeva/Documents/GitHub/MyClothesCA/src/Application/bin/Debug/net6.0/refs/Microsoft.AspNetCore.Antiforgery.dll
 /Users/bogdana.peeva/Documents/GitHub/MyClothesCA/src/Application/bin/Debug/net6.0/refs/Microsoft.AspNetCore.Authentication.Abstractions.dll
@@ -2471,3 +2470,4 @@ D:/Projects/MyClothesCA 4- with right migration/src/Application/obj/Debug/net6.0
 /Users/bogdana.peeva/Documents/GitHub/MyClothesCA/src/Application/obj/Debug/net6.0/ref/MyClothesCA.Application.dll
 /Users/bogdana.peeva/Documents/GitHub/MyClothesCA/src/Application/obj/Debug/net6.0/MyClothesCA.Application.pdb
 /Users/bogdana.peeva/Documents/GitHub/MyClothesCA/src/Application/obj/Debug/net6.0/Application.genruntimeconfig.cache
+/Users/bogdana.peeva/Documents/GitHub/MyClothesCA/src/Application/obj/Debug/net6.0/refint/MyClothesCA.Application.dll

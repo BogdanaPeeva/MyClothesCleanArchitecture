@@ -2140,7 +2140,6 @@ D:/Projects/MyClothesCA 4- with right migration/src/Domain/obj/Debug/net6.0/ref/
 /Users/bogdana.peeva/Documents/GitHub/MyClothesCA/src/Domain/bin/Debug/net6.0/MyClothesCA.Domain.deps.json
 /Users/bogdana.peeva/Documents/GitHub/MyClothesCA/src/Domain/bin/Debug/net6.0/MyClothesCA.Domain.runtimeconfig.json
 /Users/bogdana.peeva/Documents/GitHub/MyClothesCA/src/Domain/bin/Debug/net6.0/MyClothesCA.Domain.dll
-/Users/bogdana.peeva/Documents/GitHub/MyClothesCA/src/Domain/bin/Debug/net6.0/ref/MyClothesCA.Domain.dll
 /Users/bogdana.peeva/Documents/GitHub/MyClothesCA/src/Domain/bin/Debug/net6.0/MyClothesCA.Domain.pdb
 /Users/bogdana.peeva/Documents/GitHub/MyClothesCA/src/Domain/bin/Debug/net6.0/refs/Microsoft.AspNetCore.Antiforgery.dll
 /Users/bogdana.peeva/Documents/GitHub/MyClothesCA/src/Domain/bin/Debug/net6.0/refs/Microsoft.AspNetCore.Authentication.Abstractions.dll
@@ -2439,3 +2438,5 @@ D:/Projects/MyClothesCA 4- with right migration/src/Domain/obj/Debug/net6.0/ref/
 /Users/bogdana.peeva/Documents/GitHub/MyClothesCA/src/Domain/obj/Debug/net6.0/ref/MyClothesCA.Domain.dll
 /Users/bogdana.peeva/Documents/GitHub/MyClothesCA/src/Domain/obj/Debug/net6.0/MyClothesCA.Domain.pdb
 /Users/bogdana.peeva/Documents/GitHub/MyClothesCA/src/Domain/obj/Debug/net6.0/Domain.genruntimeconfig.cache
+/Users/bogdana.peeva/Documents/GitHub/MyClothesCA/src/Domain/obj/Debug/net6.0/Domain.csproj.AssemblyReference.cache
+/Users/bogdana.peeva/Documents/GitHub/MyClothesCA/src/Domain/obj/Debug/net6.0/refint/MyClothesCA.Domain.dll

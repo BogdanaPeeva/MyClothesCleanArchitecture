@@ -2184,7 +2184,6 @@ D:/Projects/MyClothesCA 4- with right migration/src/Infrastructure/obj/Debug/net
 /Users/bogdana.peeva/Documents/GitHub/MyClothesCA/src/Infrastructure/bin/Debug/net6.0/MyClothesCA.Infrastructure.deps.json
 /Users/bogdana.peeva/Documents/GitHub/MyClothesCA/src/Infrastructure/bin/Debug/net6.0/MyClothesCA.Infrastructure.runtimeconfig.json
 /Users/bogdana.peeva/Documents/GitHub/MyClothesCA/src/Infrastructure/bin/Debug/net6.0/MyClothesCA.Infrastructure.dll
-/Users/bogdana.peeva/Documents/GitHub/MyClothesCA/src/Infrastructure/bin/Debug/net6.0/ref/MyClothesCA.Infrastructure.dll
 /Users/bogdana.peeva/Documents/GitHub/MyClothesCA/src/Infrastructure/bin/Debug/net6.0/MyClothesCA.Infrastructure.pdb
 /Users/bogdana.peeva/Documents/GitHub/MyClothesCA/src/Infrastructure/bin/Debug/net6.0/refs/Microsoft.AspNetCore.Antiforgery.dll
 /Users/bogdana.peeva/Documents/GitHub/MyClothesCA/src/Infrastructure/bin/Debug/net6.0/refs/Microsoft.AspNetCore.Authentication.Abstractions.dll
@@ -2489,3 +2488,4 @@ D:/Projects/MyClothesCA 4- with right migration/src/Infrastructure/obj/Debug/net
 /Users/bogdana.peeva/Documents/GitHub/MyClothesCA/src/Infrastructure/obj/Debug/net6.0/ref/MyClothesCA.Infrastructure.dll
 /Users/bogdana.peeva/Documents/GitHub/MyClothesCA/src/Infrastructure/obj/Debug/net6.0/MyClothesCA.Infrastructure.pdb
 /Users/bogdana.peeva/Documents/GitHub/MyClothesCA/src/Infrastructure/obj/Debug/net6.0/Infrastructure.genruntimeconfig.cache
+/Users/bogdana.peeva/Documents/GitHub/MyClothesCA/src/Infrastructure/obj/Debug/net6.0/refint/MyClothesCA.Infrastructure.dll
