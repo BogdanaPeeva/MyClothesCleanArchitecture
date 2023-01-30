@@ -2467,7 +2467,7 @@ D:/Projects/MyClothesCA 4- with right migration/src/Application/obj/Debug/net6.0
 /Users/bogdana.peeva/Documents/GitHub/MyClothesCA/src/Application/obj/Debug/net6.0/Application.csproj.CoreCompileInputs.cache
 /Users/bogdana.peeva/Documents/GitHub/MyClothesCA/src/Application/obj/Debug/net6.0/Application.csproj.CopyComplete
 /Users/bogdana.peeva/Documents/GitHub/MyClothesCA/src/Application/obj/Debug/net6.0/MyClothesCA.Application.dll
-/Users/bogdana.peeva/Documents/GitHub/MyClothesCA/src/Application/obj/Debug/net6.0/ref/MyClothesCA.Application.dll
+/Users/bogdana.peeva/Documents/GitHub/MyClothesCA/src/Application/obj/Debug/net6.0/refint/MyClothesCA.Application.dll
 /Users/bogdana.peeva/Documents/GitHub/MyClothesCA/src/Application/obj/Debug/net6.0/MyClothesCA.Application.pdb
 /Users/bogdana.peeva/Documents/GitHub/MyClothesCA/src/Application/obj/Debug/net6.0/Application.genruntimeconfig.cache
-/Users/bogdana.peeva/Documents/GitHub/MyClothesCA/src/Application/obj/Debug/net6.0/refint/MyClothesCA.Application.dll
+/Users/bogdana.peeva/Documents/GitHub/MyClothesCA/src/Application/obj/Debug/net6.0/ref/MyClothesCA.Application.dll

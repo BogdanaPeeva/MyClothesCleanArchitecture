@@ -477,3 +477,10 @@ src/Application/obj/project.assets.json
 *.cache
 *.cache
 .DS_Store
+*.cache
+*.cache
+*.txt
+*.sentinel
+*.cache
+*.txt
+*.cache

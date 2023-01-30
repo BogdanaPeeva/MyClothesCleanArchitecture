@@ -2485,7 +2485,7 @@ D:/Projects/MyClothesCA 4- with right migration/src/Infrastructure/obj/Debug/net
 /Users/bogdana.peeva/Documents/GitHub/MyClothesCA/src/Infrastructure/obj/Debug/net6.0/Infrastructure.csproj.CoreCompileInputs.cache
 /Users/bogdana.peeva/Documents/GitHub/MyClothesCA/src/Infrastructure/obj/Debug/net6.0/Infrastructure.csproj.CopyComplete
 /Users/bogdana.peeva/Documents/GitHub/MyClothesCA/src/Infrastructure/obj/Debug/net6.0/MyClothesCA.Infrastructure.dll
-/Users/bogdana.peeva/Documents/GitHub/MyClothesCA/src/Infrastructure/obj/Debug/net6.0/ref/MyClothesCA.Infrastructure.dll
+/Users/bogdana.peeva/Documents/GitHub/MyClothesCA/src/Infrastructure/obj/Debug/net6.0/refint/MyClothesCA.Infrastructure.dll
 /Users/bogdana.peeva/Documents/GitHub/MyClothesCA/src/Infrastructure/obj/Debug/net6.0/MyClothesCA.Infrastructure.pdb
 /Users/bogdana.peeva/Documents/GitHub/MyClothesCA/src/Infrastructure/obj/Debug/net6.0/Infrastructure.genruntimeconfig.cache
-/Users/bogdana.peeva/Documents/GitHub/MyClothesCA/src/Infrastructure/obj/Debug/net6.0/refint/MyClothesCA.Infrastructure.dll
+/Users/bogdana.peeva/Documents/GitHub/MyClothesCA/src/Infrastructure/obj/Debug/net6.0/ref/MyClothesCA.Infrastructure.dll

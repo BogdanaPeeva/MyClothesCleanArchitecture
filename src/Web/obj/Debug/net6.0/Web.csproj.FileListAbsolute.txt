@@ -5003,7 +5003,7 @@ D:/Projects/MyClothesCA 4- with right migration/src/Web/bin/Debug/net6.0/wwwroot
 /Users/bogdana.peeva/Documents/GitHub/MyClothesCA/src/Web/obj/Debug/net6.0/scopedcss/projectbundle/Web.bundle.scp.css
 /Users/bogdana.peeva/Documents/GitHub/MyClothesCA/src/Web/obj/Debug/net6.0/Web.csproj.CopyComplete
 /Users/bogdana.peeva/Documents/GitHub/MyClothesCA/src/Web/obj/Debug/net6.0/Web.dll
-/Users/bogdana.peeva/Documents/GitHub/MyClothesCA/src/Web/obj/Debug/net6.0/ref/Web.dll
+/Users/bogdana.peeva/Documents/GitHub/MyClothesCA/src/Web/obj/Debug/net6.0/refint/Web.dll
 /Users/bogdana.peeva/Documents/GitHub/MyClothesCA/src/Web/obj/Debug/net6.0/Web.pdb
 /Users/bogdana.peeva/Documents/GitHub/MyClothesCA/src/Web/obj/Debug/net6.0/Web.genruntimeconfig.cache
-/Users/bogdana.peeva/Documents/GitHub/MyClothesCA/src/Web/obj/Debug/net6.0/refint/Web.dll
+/Users/bogdana.peeva/Documents/GitHub/MyClothesCA/src/Web/obj/Debug/net6.0/ref/Web.dll
