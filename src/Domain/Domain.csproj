@@ -31,6 +31,7 @@
       <None Remove="Microsoft.EntityFrameworkCore.Tools" />
       <None Remove="Microsoft.EntityFrameworkCore.InMemory" />
       <None Remove="Microsoft.Extensions.Hosting.Abstractions" />
+      <None Remove="Microsoft.AspNetCore.Authentication.Cookies" />
     </ItemGroup>
     <ItemGroup>
       <Folder Include="Events\" />
@@ -64,5 +65,6 @@
       </PackageReference>
       <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="6.0.8" />
       <PackageReference Include="Microsoft.Extensions.Hosting.Abstractions" Version="6.0.0" />
+      <PackageReference Include="Microsoft.AspNetCore.Authentication.Cookies" Version="2.2.0" />
     </ItemGroup>
 </Project>

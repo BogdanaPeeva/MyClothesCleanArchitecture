@@ -4732,6 +4732,7 @@ D:/Projects/MyClothesCA 4- with right migration/src/Web/bin/Debug/net6.0/wwwroot
 /Users/bogdana.peeva/Documents/GitHub/MyClothesCA/src/Web/bin/Debug/net6.0/MediatR.Extensions.Microsoft.DependencyInjection.dll
 /Users/bogdana.peeva/Documents/GitHub/MyClothesCA/src/Web/bin/Debug/net6.0/MessagePack.dll
 /Users/bogdana.peeva/Documents/GitHub/MyClothesCA/src/Web/bin/Debug/net6.0/MessagePack.Annotations.dll
+/Users/bogdana.peeva/Documents/GitHub/MyClothesCA/src/Web/bin/Debug/net6.0/Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
 /Users/bogdana.peeva/Documents/GitHub/MyClothesCA/src/Web/bin/Debug/net6.0/Microsoft.AspNetCore.Cryptography.Internal.dll
 /Users/bogdana.peeva/Documents/GitHub/MyClothesCA/src/Web/bin/Debug/net6.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
 /Users/bogdana.peeva/Documents/GitHub/MyClothesCA/src/Web/bin/Debug/net6.0/Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
