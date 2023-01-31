@@ -12,7 +12,7 @@ namespace Web;
 
 public static class ConfigureServices
 {
-    public static IServiceCollection AddWebUIServices(this IServiceCollection services,IConfiguration configuration)
+    public static IServiceCollection AddWebUIServices(this IServiceCollection services, IConfiguration configuration)
     {
 
         services.AddDatabaseDeveloperPageExceptionFilter();
