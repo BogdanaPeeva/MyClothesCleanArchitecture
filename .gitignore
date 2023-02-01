@@ -490,3 +490,4 @@ src/.DS_Store
 src/.DS_Store
 src/Application/.DS_Store
 src/Web/.DS_Store
+src/Web/appsettings.json
