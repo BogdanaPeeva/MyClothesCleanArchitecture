@@ -486,3 +486,7 @@ src/Application/obj/project.assets.json
 *.cache
 src/.DS_Store
 *.sentinel
+.DS_Store
+src/.DS_Store
+src/Application/.DS_Store
+src/Web/.DS_Store
