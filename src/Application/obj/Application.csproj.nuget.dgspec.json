@@ -1,33 +1,39 @@
 {
   "format": 1,
   "restore": {
-    "/Users/bogdana.peeva/Documents/GitHub/MyClothesCA/src/Application/Application.csproj": {}
+    "D:\\Projects\\MyClothesCleanArchitecture\\src\\Application\\Application.csproj": {}
   },
   "projects": {
-    "/Users/bogdana.peeva/Documents/GitHub/MyClothesCA/src/Application/Application.csproj": {
+    "D:\\Projects\\MyClothesCleanArchitecture\\src\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/bogdana.peeva/Documents/GitHub/MyClothesCA/src/Application/Application.csproj",
+        "projectUniqueName": "D:\\Projects\\MyClothesCleanArchitecture\\src\\Application\\Application.csproj",
         "projectName": "MyClothesCA.Application",
-        "projectPath": "/Users/bogdana.peeva/Documents/GitHub/MyClothesCA/src/Application/Application.csproj",
-        "packagesPath": "/Users/bogdana.peeva/.nuget/packages/",
-        "outputPath": "/Users/bogdana.peeva/Documents/GitHub/MyClothesCA/src/Application/obj/",
+        "projectPath": "D:\\Projects\\MyClothesCleanArchitecture\\src\\Application\\Application.csproj",
+        "packagesPath": "C:\\Users\\Bogi\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\MyClothesCleanArchitecture\\src\\Application\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/Users/bogdana.peeva/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Bogi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/Users/bogdana.peeva/Documents/GitHub/MyClothesCA/src/Domain/Domain.csproj": {
-                "projectPath": "/Users/bogdana.peeva/Documents/GitHub/MyClothesCA/src/Domain/Domain.csproj"
+              "D:\\Projects\\MyClothesCleanArchitecture\\src\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\Projects\\MyClothesCleanArchitecture\\src\\Domain\\Domain.csproj"
               }
             }
           }
@@ -36,7 +42,13 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net6.0": {
@@ -155,26 +167,32 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.405/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/bogdana.peeva/Documents/GitHub/MyClothesCA/src/Domain/Domain.csproj": {
+    "D:\\Projects\\MyClothesCleanArchitecture\\src\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/bogdana.peeva/Documents/GitHub/MyClothesCA/src/Domain/Domain.csproj",
+        "projectUniqueName": "D:\\Projects\\MyClothesCleanArchitecture\\src\\Domain\\Domain.csproj",
         "projectName": "MyClothesCA.Domain",
-        "projectPath": "/Users/bogdana.peeva/Documents/GitHub/MyClothesCA/src/Domain/Domain.csproj",
-        "packagesPath": "/Users/bogdana.peeva/.nuget/packages/",
-        "outputPath": "/Users/bogdana.peeva/Documents/GitHub/MyClothesCA/src/Domain/obj/",
+        "projectPath": "D:\\Projects\\MyClothesCleanArchitecture\\src\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\Bogi\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\MyClothesCleanArchitecture\\src\\Domain\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/Users/bogdana.peeva/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Bogi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -187,7 +205,13 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net6.0": {
@@ -302,7 +326,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.405/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304\\RuntimeIdentifierGraph.json"
         }
       }
     }
