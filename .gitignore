@@ -3,6 +3,8 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
+bin
+
 # User-specific files
 *.rsuser
 *.suo
@@ -447,6 +449,8 @@ $RECYCLE.BIN/
 ##
 ## Visual Studio Code
 ##
+
+.vscode
 .vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
@@ -462,6 +466,18 @@ src/Application/obj/Debug/net6.0/Application.csproj.AssemblyReference.cache
 *.dll
 src/Application/bin/Debug/net6.0/MyClothesCA.Application.pdb
 *.dll
+src/Application/bin
+src/Application/obj
+
+src/Domain/bin
+src/Domain/obj
+
+src/Infrastructure/bin
+src/Infrastructure/obj
+
+src/Web/bin
+src/Web/obj
+
 src/Application/bin/Debug/net6.0/MyClothesCA.Domain.pdb
 src/Application/obj/Application.csproj.nuget.dgspec.json
 src/Application/obj/Application.csproj.nuget.g.props
@@ -470,7 +486,7 @@ src/Application/obj/Debug/net6.0/Application.csproj.AssemblyReference.cache
 src/Application/obj/Debug/net6.0/Application.csproj.CoreCompileInputs.cache
 *.cache
 src/Application/obj/Debug/net6.0/Application.csproj.FileListAbsolute.txt
-*.dll
+*.bindll
 *.pdb
 *.json
 src/Application/obj/project.assets.json
