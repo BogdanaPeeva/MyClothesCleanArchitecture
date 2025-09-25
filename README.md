@@ -16,3 +16,8 @@ Learning project created to practice **Clean Architecture principles** and prope
 
 ## Purpose
 To practice applying **architectural principles** for better organization of .NET applications.
+
+## Deployment
+A basic **Dockerfile** is included as part of the learning process.  
+It shows how a .NET application with **Clean Architecture** can be containerized.  
+The purpose is to practice using Docker in development, not a production-level setup.
