@@ -21,21 +21,23 @@ public class CreateCategoryCommand:IRequest
     {
         this.CreateCategoryInputDto = createCategoryInputDto;
     }
+    
     public CreateCategoryInputDto CreateCategoryInputDto { get; set; }
 }
+
 public class CreateCategoryCommandHandler : IRequestHandler<CreateCategoryCommand, Unit>
 {
     private readonly IApplicationDbContext dbContext;
     private readonly UserManager<ApplicationUser> userManager;
     private readonly IMapper mapper;
     private readonly IHttpContextAccessor httpContextAccessor;
+    
     public CreateCategoryCommandHandler(IApplicationDbContext dbContext, IMapper mapper, UserManager<ApplicationUser> userManager, IHttpContextAccessor httpContextAccessor)
     {
         this.dbContext = dbContext;
         this.mapper = mapper;
         this.userManager = userManager;
         this.httpContextAccessor = httpContextAccessor;
-
     }
 
     public async Task<Unit> Handle(CreateCategoryCommand request, CancellationToken cancellationToken)
@@ -51,7 +53,6 @@ public class CreateCategoryCommandHandler : IRequestHandler<CreateCategoryComman
         if (await dbContext.Categories.FirstOrDefaultAsync(x => x.Name == category.Name) == null && await this.dbContext.UsersCategories.FirstOrDefaultAsync(x => x.ApplicationUserId == userId && x.CategoryId == category.CategoryId) == null)
         {
             await dbContext.Categories.AddAsync(category);
-
         }
 
         if (await this.dbContext.UsersCategories.FirstOrDefaultAsync(x => x.ApplicationUserId == userId && x.CategoryId == category.CategoryId) != null)
@@ -67,10 +68,9 @@ public class CreateCategoryCommandHandler : IRequestHandler<CreateCategoryComman
 
         await this.dbContext.UsersCategories.AddAsync(userCategory);
 
-       
-
         await dbContext.SaveChangesAsync(cancellationToken);
 
         return Unit.Value;
     }
 }
+
